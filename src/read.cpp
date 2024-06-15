@@ -3,7 +3,11 @@
 #include <cassert>
 #include <iostream>*/
 #include "precompiled_stl.hpp"
-#include <experimental/filesystem>
+#include <filesystem>
+
+namespace experimental {
+ namespace filesystem = std::filesystem;
+}
 
 using namespace std;
 #include "utils.hpp"
